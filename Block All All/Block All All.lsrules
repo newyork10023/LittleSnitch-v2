@@ -1,0 +1,173 @@
+{
+  "description" : "Existing Block All All",
+  "name" : "Existing Block All All",
+  "rules" : [
+    {
+      "action" : "deny",
+      "remote-hosts" : "adservice.google.com"
+    },
+    {
+      "action" : "deny",
+      "remote-hosts" : "ads.pubmatic.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "adssettings.google.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "analytics.yahoo.com"
+    },
+    {
+      "action" : "deny",
+      "protocol" : "tcp",
+      "remote-domains" : "addthis.com"
+    },
+    {
+      "action" : "deny",
+      "protocol" : "tcp",
+      "remote-domains" : "bing.com"
+    },
+    {
+      "action" : "deny",
+      "protocol" : "tcp",
+      "remote-domains" : "newrelic.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "adready.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "ads-twitter.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "advertising.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "amazon-adsystem.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "doubleclick.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "facebook.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "facebook.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "google-analytics.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "googleadservices.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "googlesyndication.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "googletagmanager.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "googletagservices.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "scorecardresearch.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "smartadserver.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "twitter.com"
+    },
+    {
+      "action" : "deny",
+      "remote-hosts" : "tags.tiqcdn.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "ads.linkedin.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "ingest.sentry.io"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "aaxads.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "addthis.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "adlightning.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "adroll.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "adsrvr.org"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "alexametrics.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "clicktale.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "demdex.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "ensighten.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "heapanalytics.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "hotjar.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "newrelic.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "omtrdc.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "qualtrics.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "tiktok.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "yandex.ru"
+    }
+  ]
+}
