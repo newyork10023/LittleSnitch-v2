@@ -1,0 +1,118 @@
+{
+  "description" : "Mozilla Required",
+  "name" : "Mozilla Required",
+  "rules" : [
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Firefox Beta-Latest.app\/Contents\/MacOS\/firefox",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.eff.org"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Firefox Beta-Latest.app\/Contents\/MacOS\/firefox",
+      "protocol" : "tcp",
+      "remote-hosts" : "secure.fanboy.co.nz"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Firefox Beta-Latest.app\/Contents\/MacOS\/firefox",
+      "protocol" : "tcp",
+      "remote-hosts" : "api.accounts.firefox.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "80",
+      "process" : "\/Applications\/Firefox Beta-Latest.app\/Contents\/MacOS\/firefox",
+      "protocol" : "tcp",
+      "remote-hosts" : "detectportal.firefox.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Firefox Beta-Latest.app\/Contents\/MacOS\/firefox",
+      "protocol" : "tcp",
+      "remote-hosts" : "profile.accounts.firefox.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Firefox Beta-Latest.app\/Contents\/MacOS\/firefox",
+      "protocol" : "tcp",
+      "remote-hosts" : "firefox.settings.services.mozilla.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Firefox Beta-Latest.app\/Contents\/MacOS\/firefox",
+      "protocol" : "tcp",
+      "remote-hosts" : "push.services.mozilla.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Firefox Beta-Latest.app\/Contents\/MacOS\/firefox",
+      "protocol" : "tcp",
+      "remote-hosts" : "sync-1-us-west1-g.sync.services.mozilla.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Firefox Beta-Latest.app\/Contents\/MacOS\/firefox",
+      "protocol" : "tcp",
+      "remote-hosts" : "token.services.mozilla.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Firefox Beta-Latest.app\/Contents\/MacOS\/firefox",
+      "protocol" : "tcp",
+      "remote-hosts" : "content-signature-2.cdn.mozilla.net"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Firefox Beta-Latest.app\/Contents\/MacOS\/firefox",
+      "protocol" : "tcp",
+      "remote-hosts" : "firefox-settings-attachments.cdn.mozilla.net"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Firefox Beta-Latest.app\/Contents\/MacOS\/firefox",
+      "protocol" : "tcp",
+      "remote-hosts" : "aus5.mozilla.org"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Firefox Beta-Latest.app\/Contents\/MacOS\/firefox",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.mozilla.org"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Firefox Beta-Latest.app\/Contents\/MacOS\/firefox",
+      "protocol" : "udp",
+      "remote-hosts" : "secure.fanboy.co.nz"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Firefox Beta-Latest.app\/Contents\/MacOS\/firefox",
+      "protocol" : "udp",
+      "remote-hosts" : "push.services.mozilla.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Firefox Beta-Latest.app\/Contents\/MacOS\/firefox",
+      "protocol" : "udp",
+      "remote-hosts" : "token.services.mozilla.com"
+    }
+  ]
+}
